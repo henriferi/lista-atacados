@@ -14,7 +14,7 @@ datasource db {
   shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
 }
 
-model Fornecedores {
+model Fornecedor {
   id                  Int     @id @default(autoincrement())
   nome                String
   formaPagamento      String
